@@ -14,9 +14,13 @@ const Navbar = () => {
           const currentScrollY = window.scrollY;
 
           // Show navbar when scrolling up, hide when scrolling down
-          if (currentScrollY > lastScrollY) {
+          if (currentScrollY > lastScrollY && currentScrollY!==0) {
             setIsVisible(false);
-          } else {
+          } 
+          if(currentScrollY===0){
+            setIsVisible(true);
+          }
+          else {
             setIsVisible(true);
           }
 

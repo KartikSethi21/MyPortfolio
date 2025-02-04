@@ -126,7 +126,7 @@ const Skills = () => {
 }
 
 .homeskillsBox > svg {
-  font-size: 5vmax;
+  font-size: 9vmax;
   color: rgb(255, 255, 255);
   transition: all 0.5s;
   margin: 10px;
@@ -174,6 +174,9 @@ const Skills = () => {
   .homeCubeSkills {
     width: 100px;
     height: 100px;
+    font-size:9px;
+    padding:0px;
+    margin:0px;
   }
 
   .homeCubeSkillsFace1 {
@@ -199,7 +202,7 @@ const Skills = () => {
   rotate: -30deg;
 }
 }
- @media screen and (max-width: 862px) {
+ @media screen and (max-width: 945px) {
     .homeskillsBox{
     bottom:100px;
     display:flex;
@@ -250,7 +253,7 @@ const Skills = () => {
       </div>
 
       <div className="cubeShadow"></div>
-      <div className="homeskillsBox " id="homeskillsBox">
+      <div className="homeskillsBox items-center justify-center font-5px" id="homeskillsBox">
          <SiCplusplus/>
          <SiHtml5 />
          <SiCss3 />
