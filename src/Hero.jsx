@@ -1,6 +1,6 @@
 import { MouseOutlined } from '@mui/icons-material';
 import React, { useEffect, useState } from 'react'
-
+import Logo from "../assets/images/header-img.svg";
 const Home = () => {
     const [loopNum,setLoopNum]=useState(0);
     const [isDeleteting,setIsDeleting]=useState(false);
@@ -137,7 +137,7 @@ const Home = () => {
             {/* right side */}
             <div className='bal md:w-[600px] hidden md:relative  md:block   '>
             {/* sm:hidden */}
-                <img src="../assets/images/header-img.svg" alt="Header Image"  className=' absolute  md:right-0 md:top-20  lg:right-0 lg:bottom-24  astro hidden md:block md:border-white lg:pt-14   md:max-h-[500px]  lg:max-h-[700px]'/>
+                <img src={Logo} alt="Header Image"  className=' absolute  md:right-0 md:top-20  lg:right-0 lg:bottom-24  astro hidden md:block md:border-white lg:pt-14   md:max-h-[500px]  lg:max-h-[700px]'/>
             </div>
             </div>
             <div className="homeScrollBtn">
