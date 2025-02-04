@@ -40,18 +40,38 @@ const Navbar = () => {
     >
       <div className="w-full h-[70px] flex justify-center items-center">
         <ul className="flex flex-row justify-evenly w-11/12">
-          <li className="hover:cursor-pointer transition-all duration-200">
-            <Link to="/">Home</Link>
-          </li>
-          <li className="hover:cursor-pointer transition-all duration-200">
-            <Link to="/about">About</Link>
-          </li>
-          <li className="hover:cursor-pointer transition-all duration-200">
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li className="hover:cursor-pointer transition-all duration-200">
-            <Link to="/contact">Contact</Link>
-          </li>
+
+       
+        <li className="relative hover:cursor-pointer transition-all duration-200 group ">
+           <Link to="/" className="relative">Home</Link>
+           <div className="absolute bottom-0 left-0 w-full  h-1 top-full bg-white opacity-0 group-hover:opacity-100 
+                 transition-all duration-200 "></div>
+         </li>
+         
+         <li className="relative hover:cursor-pointer transition-all duration-200 group ">
+           <Link to="/" className="relative">
+             About 
+           </Link>
+           <div className="absolute bottom-0 left-0 w-full  h-1 top-full bg-white opacity-0 group-hover:opacity-100 
+                 transition-all duration-200 "></div>
+         </li>
+          
+         <li className="relative hover:cursor-pointer transition-all duration-200 group ">
+           <Link to="/" className="relative">
+             Projects 
+           </Link>
+           <div className="absolute bottom-0 left-0 w-full  h-1 top-full bg-white opacity-0 group-hover:opacity-100 
+                 transition-all duration-200 "></div>
+         </li>
+
+         <li className="relative hover:cursor-pointer transition-all duration-200 group ">
+           <Link to="/" className="relative">
+             Contact
+           </Link>
+           <div className="absolute bottom-0 left-0 w-full  h-1 top-full bg-white opacity-0 group-hover:opacity-100 
+                 transition-all duration-200 "></div>
+         </li>
+         
         </ul>
       </div>
     </nav>
