@@ -113,14 +113,16 @@ const Skills = () => {
 
 .homeskillsBox {
   background-color: hsl(250, 100%, 75%);
-  padding: 0 2vmax;
+  padding: 2vmax 2vmax;
   position: absolute;
   display: flex;
   flex-direction: column;
   right: -300px;
+ height:70%;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-fill-mode: forwards;
+  border-radius:25px;
 }
 
 .homeskillsBox > svg {
@@ -128,6 +130,7 @@ const Skills = () => {
   color: rgb(255, 255, 255);
   transition: all 0.5s;
   margin: 10px;
+  
 }
 .homeskillsBox > svg:hover {
   transform: scale(1.5);
@@ -196,6 +199,23 @@ const Skills = () => {
   rotate: -30deg;
 }
 }
+ @media screen and (max-width: 862px) {
+    .homeskillsBox{
+    bottom:100px;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    right:0;
+    left:0;
+    height:10%;
+    }
+     }
+  @media screen and (max-width:2540px) and (min-width:1789px){
+    .homeskillsBox{
+     height:80%;
+      bottom:30px;
+    }
+  }
         
           `}
    </style>
