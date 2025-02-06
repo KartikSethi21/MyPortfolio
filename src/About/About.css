@@ -1,7 +1,10 @@
 .about {
     background-color: hsl(219, 48%, 8%);
-    min-height: 100vh;
+    min-height: 140vh;
     display: flex;
+    padding-top: 15vmax;
+    margin-top:15vma
+   
   }
   
   .aboutContainer {
@@ -28,15 +31,17 @@
   }
   
   .aboutContainer2 {
-    width: 60%;
+    width: 70%;
     min-height: 80vh;
     background-color: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.281);
     position: absolute;
-    bottom: 0;
+    top: 90px;
+    left:-70px;
     box-sizing: border-box;
     padding: 2vmax;
     display: flex;
+    margin-top:15vmax;
     transform: translateX(-100vw) translateY(-10%) rotateZ(-360deg);
   
     animation: aboutAnimation 1s ease-in forwards;
@@ -54,8 +59,8 @@
   }
   
   .aboutAvatar {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     transition: all 1s;
   }
