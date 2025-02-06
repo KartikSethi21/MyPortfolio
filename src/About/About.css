@@ -82,8 +82,8 @@
   }
   @media screen and (max-width: 600px) {
     .about {
-      align-items: flex-end;
-      padding-top: 100px;
+      align-items: center;
+      /* padding-top: 100px; */
     }
     .aboutContainer {
       display: none;
@@ -91,7 +91,11 @@
   
     .aboutContainer2 {
       width: 100%;
-      position: relative;
+      position: absolute;
+      top:5px;
+      left:5px;
+      /* margin-top:5px;
+      padding-top:5px; */
       flex-direction: column;
       animation: aboutAnimationPhone 1s ease-in forwards;
     }
@@ -101,8 +105,8 @@
     }
   
     .aboutAvatar {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       transform: translateY(-80%);
       
     }

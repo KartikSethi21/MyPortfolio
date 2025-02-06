@@ -113,10 +113,18 @@ const Home = () => {
         padding-left:0rem;
         }
         }
+        @media screen and (max-width:339px){
+        .wri{
+        align-items:start;
+        padding-left:5px;
+       
+    
+        }
+        }
         
     `}
-   </style>
-    <section className='full bg-[url(../assets/images/banner-bg.png)] bg-no-repeat bg-cover w-full h-[750px] relative z-10 text-white mb-0 overflow-hidden'>
+   </style> 
+    <section className='full bg-[url(../assets/images/banner-bg.png)] bg-no-repeat bg-cover w-full h-[750px] relative z-10 text-white mb-0 overflow-hidden justify-stretch items-stretch'>
     <div className='gf flex flex-row relative'>           
          {/* left side */}
             <div className='wri flex-col md:max-w-[calc(100%-600px)]  relative items-center justify-center mt-0 lg:ml-8 p-32 xl:mt-20'>

@@ -21,7 +21,7 @@ createRoot(document.getElementById('root')).render(
     <Route path='/projects' element={<Projects/>}/>
     </Routes>
   
-        <Footer/>
+        <Footer className/>
     
  
     </BrowserRouter>
