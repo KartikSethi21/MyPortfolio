@@ -3,7 +3,6 @@
     min-height: 140vh;
     display: flex;
     padding-top: 15vmax;
-    margin-top:15vma
    
   }
   
@@ -98,6 +97,7 @@
       padding-top:5px; */
       flex-direction: column;
       animation: aboutAnimationPhone 1s ease-in forwards;
+      justify-items:flex-start;
     }
   
     .aboutContainer2 > div:last-child > p {
@@ -107,7 +107,24 @@
     .aboutAvatar {
       width: 150px;
       height: 150px;
-      transform: translateY(-80%);
-      
+      margin-top: 20px;
     }
+    
+    .jl {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px; 
+    }
+    
+    .kj {
+      margin: 0; 
+    }
+    
+    .aboutContainer2 > div:last-child > p {
+      text-align: center !important;
+      margin-top: 10px;
+    }
+    
+    
   }

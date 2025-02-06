@@ -11,11 +11,11 @@ function About() {
         </Typography>
         </div>
     <div className="aboutContainer2">
-            <div>
+            <div className='jl'>
                 <img src={image} alt="ME" className='aboutAvatar' />
                 <Typography variant='h4' style={{
                     margin:"1vmax 0", color:"black"
-                }}>
+                }} className='kj'>
                     Kartik Sethi 
                 </Typography>
                 <Typography style={{
