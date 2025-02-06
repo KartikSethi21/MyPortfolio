@@ -2,6 +2,8 @@
 
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import bannerBg from "../assets/images/banner-bg.png";
+
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -29,7 +31,7 @@ const Navbar = () => {
       isVisible ? "translate-y-0" : "-translate-y-full"
     }`}
     style={{
-      backgroundImage: "url('/assets/images/banner-bg.png')",
+      backgroundImage: `url(${bannerBg})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
     }}>
